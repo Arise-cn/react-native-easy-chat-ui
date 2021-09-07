@@ -74,6 +74,10 @@ export interface MessagePorpsType {
 // 消息属性
 export interface ChatScreenPropsType {
   /**
+   * header高度
+   */
+  headerHeight?:number
+  /**
    * 消息列表
    */
   messageList: MessagePorpsType[]
