@@ -1,6 +1,6 @@
 import ChatView from './app/chat/ChatView'
 import { EMOJIS_DATA } from './app/source/emojis/index'
-import { ViewStyle } from 'react-native'
+import { ViewStyle,ImageSourcePropType } from 'react-native'
 import { PureComponent } from 'react'
 
 export interface VoiceContentPropsType {
@@ -92,7 +92,7 @@ export interface ChatScreenPropsType {
   /**
    * 聊天背景
    */
-  chatBackgroundImage?: string | number
+  chatBackgroundImage?: ImageSourcePropType
   /**
    * 同FlatList属性
    */
