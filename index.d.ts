@@ -74,6 +74,10 @@ export interface MessagePorpsType {
 // 消息属性
 export interface ChatScreenPropsType {
   /**
+   * 是否是IphoneX
+   */
+  isIPhoneX?:boolean
+  /**
    * header高度
    */
   headerHeight?:number
